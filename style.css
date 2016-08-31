@@ -1,7 +1,6 @@
 body {
 background-color: #FAFAFA;
 }
-
 .container {
   width: 100%;
   height: 100%;
@@ -14,30 +13,25 @@ background-color: #FAFAFA;
    -webkit-justify-content: center;
    justify-content: center;
 }
-
 .title-item {
   font-family: Century Gothic,arial,sans-serif;
   color: rgba(0, 0, 0, 0.87);
   font-size: 7em;
 }
-
 .title-item-under {
   font-family: Century Gothic,arial,sans-serif;
   color: rgba(0, 0, 0, 0.54);
   font-size: 1.5em;
 }
-
 .social-container {
   display: -webkit-flex;
   display: flex;
 }
-
 .social-item {
   width: 3em;
   height: 3em;
   margin: 1px;
 }
-
 .container {
   background-color: #FAFAFA;
   font-family: Century Gothic,arial,sans-serif;
@@ -51,7 +45,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
 a:link, a:visited, a:hover, a:active {
   color: rgba(255, 129, 15, 1);
 }
