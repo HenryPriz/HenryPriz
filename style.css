@@ -15,16 +15,10 @@ background-color: #FAFAFA;
    justify-content: center;
 }
 
-.title-container {
-}
-
 .title-item {
   font-family: Century Gothic,arial,sans-serif;
   color: rgba(0, 0, 0, 0.87);
   font-size: 7em;
-}
-
-.title-container-under {
 }
 
 .title-item-under {
