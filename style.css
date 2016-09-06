@@ -1,101 +1,24 @@
-body {
-  background-color: #FAFAFA;
-}
-.container {
-  width: 100%;
-  height: 100%;
-  display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
-   background-color: #FAFAFA;
-   font-family: Century Gothic,arial,sans-serif;
-   color: rgba(101, 101, 101, 1);
-}
-.title-item {
-  font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 7em;
-}
-.title-item-under {
-  font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 1.5em;
-}
-.social-container {
-  display: -webkit-flex;
-  display: flex;
-}
-.social-item {
-  width: 3em;
-  height: 3em;
-  margin: 1px;
-}
+body {background-color: #FAFAFA;}
+.container {width: 100%;height: 100%;display: -webkit-flex;display: flex;-webkit-flex-direction: column;flex-direction: column;-webkit-align-items: center;align-items: center;-webkit-justify-content: center;justify-content: center;background-color: #FAFAFA;font-family: Century Gothic,arial,sans-serif;color: rgba(101, 101, 101, 1);}
+.title-item-under {font-family: Century Gothic,arial,sans-serif;color: rgba(0, 0, 0, 0.54);font-size: 1.5em;}
+.social-container {display: -webkit-flex;display: flex;}
+.social-item {width: 3em;height: 3em;margin: 1px;}
 .st0{fill:#03A9F4;}
 .st1{fill:#8BC34A;}
 .st2{fill:#FFEB3B;}
 .st3{fill:none;}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-a:link, a:visited, a:hover, a:active {
-  color: rgba(255, 129, 15, 1);
-}
-.button-left{
-  text-align: right;
-  font-family: Century Gothic, arial, sans-serif;
-}
-.findlinks {
-  color: rgba(255, 129, 15, 1);
-  padding: 0em 0.7em;
-}
-div.img img {
-    width: 100%;
-    height: auto;
-}
-* {
-    box-sizing: border-box;
-}
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 25%;
-}
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 50%;
-        margin: 6px 0;
-    }
-}
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.header-mid {
-  text-align: center;
-  font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 1.5em;
-}
-.header-left {
-  text-align: left;
-  font-family: Century Gothic,arial,sans-serif;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-a:link, a:visited, a:hover, a:active {
-  color: rgba(255, 129, 15, 1);
-}
+a {color: inherit;text-decoration: none;}
+a:link, a:visited, a:hover, a:active {color: rgba(255, 129, 15, 1);}
+.button-left{text-align: right;font-family: Century Gothic, arial, sans-serif;}
+.findlinks {color: rgba(255, 129, 15, 1);padding: 0em 0.7em;}
+div.img img {width: 100%;height: auto;}
+* {box-sizing: border-box;}
+.responsive {padding: 0 6px;float: left;width: 25%;}
+@media only screen and (max-width: 700px){.responsive {width: 50%;margin: 6px 0;}}
+@media only screen and (max-width: 500px){.responsive {width: 100%;}}
+.clearfix:after {content: "";display: table;clear: both;}
+.header-mid {text-align: center;font-family: Century Gothic,arial,sans-serif;color: rgba(0, 0, 0, 0.54);font-size: 1.5em;}
+.header-left {text-align: left;font-family: Century Gothic,arial,sans-serif;}
+a {color: inherit;text-decoration: none;}
+a:link, a:visited, a:hover, a:active {color: rgba(255, 129, 15, 1);}
+h1 {font-family: Century Gothic,arial,sans-serif;color: rgba(0, 0, 0, 0.87);font-size: 7em;}
