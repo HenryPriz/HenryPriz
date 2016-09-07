@@ -54,6 +54,7 @@ a:link, a:visited, a:hover, a:active {
 div.img img {
   width: 100%;
   height: auto;
+  margin-top: .2em;
 }
 * {box-sizing: border-box;}
 .responsive {
@@ -69,12 +70,13 @@ div.img img {
 .header-mid {
   text-align: center;
   font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1em;
 }
 .header-left {
   text-align: left;
   font-family: Century Gothic,arial,sans-serif;
+  font-size: 0.75em;
 }
 h1 {
   font-family: Century Gothic,arial,sans-serif;
@@ -100,6 +102,15 @@ h1 {
   }
   .title-item-under {
     font-size: 1.5em;
+  }
+  .header-left {
+    font-size: 1em;
+  }
+  .header-mid {
+    font-size: 1.5em;
+  }
+  div.img img {
+    margin-top: .6em;
   }
 }
 @media only screen and (min-width: 64.063em){
