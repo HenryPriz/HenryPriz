@@ -73,11 +73,11 @@ li a {
   text-align: center;
   text-decoration: none;
   font-size: .75em;
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 li a:hover {
-  background-color: #E6E6E6;
+  background-color: #F0F0F0;
 }
 .top-section {
   padding: 1.1em;
