@@ -54,7 +54,7 @@ ul {
   overflow: hidden;
   padding: 0;
   font-family: Century Gothic,arial,sans-serif;
-  box-shadow: 0em 0.1em 0.4em rgba(0, 0, 0, .4);
+  box-shadow: 0em 0.1em 0.4em rgba(0, 0, 0, .09);
 }
 h1 {
   font-family: Century Gothic,arial,sans-serif;
@@ -73,6 +73,8 @@ li a {
   text-align: center;
   text-decoration: none;
   font-size: .75em;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
 }
 li a:hover {
   background-color: #E6E6E6;
@@ -89,13 +91,16 @@ li a:hover {
   }
   img {
     padding: .4em;
-    width: 67%;
+    width: 40%;
     height: auto;
-    margin-left: 16.5%;
-    box-shadow: 0em 0.1em 0.4em rgba(0, 0, 0, .4);
+    margin: .3em;
+    box-shadow: 0em 0.1em 0.4em rgba(0, 0, 0, .2);
   }
   .top-section {
     padding: 1.75em;
+  }
+  .image-center {
+    margin-left: 15%;
   }
   li a {
     font-size: 1em;
