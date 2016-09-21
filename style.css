@@ -79,6 +79,14 @@ h2 {
   text-align: center;
   margin-bottom: .2em;
 }
+h3 {
+  font-family: Century Gothic,arial,sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 4em;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: .2em;
+}
 li {
   float: left;
 }
@@ -110,6 +118,9 @@ li a.active {
   }
   h2 {
     margin-top: 0.75em
+  }
+  h3 {
+    margin-top: .3em;
   }
   li a {
     font-size: 1em;
@@ -159,5 +170,8 @@ li a.active {
   }
   h2 {
     margin-top: 1em;
+  }
+  h3 {
+    margin-top: 0.18em;
   }
 }
