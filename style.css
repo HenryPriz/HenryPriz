@@ -153,6 +153,7 @@ li a.active {
     padding: 1.75em;
   }
   .about-item {
+    font-size: 1.4em;
     margin: 0 8em 0 8em;
   }
   .image-center {
@@ -171,5 +172,8 @@ li a.active {
   }
   h3 {
     margin-top: 0.18em;
+  }
+  .text-gap {
+    padding: 1em;
   }
 }
