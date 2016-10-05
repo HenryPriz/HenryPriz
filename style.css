@@ -204,8 +204,8 @@ li a.active {
     margin: .3em;
     box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, .2);
     background-color: #FFFFFF;
-    -webkit-transition: all 0.1s ease;
-    transition: all 0.1s ease;
+    -webkit-transition: transform 0.1s ease;
+    transition: transform 0.1s ease;
     z-index: 1;
     position: relative;
   }
