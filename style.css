@@ -224,10 +224,10 @@ li a:hover {
   .IndexBody {
     background-size: 170em;
     background-position: center;
-    -webkit-animation-delay: .2s;
-    animation-delay: .4s;
-    -webkit-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
+    -webkit-animation-delay: .6s;
+    animation-delay: .8s;
+    -webkit-animation:fadeIn ease-in-out 1;
+    animation:fadeIn ease-in-out 1;
     -webkit-animation-fill-mode:both;
     animation-fill-mode:boths;
     -webkit-animation-duration:.4s;
