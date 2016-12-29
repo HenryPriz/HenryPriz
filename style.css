@@ -1,9 +1,37 @@
-body {
-  background-color: #FAFAFA;
+.IndexBody {
+  background: rgba(50, 0, 0, 1) url("Images/Texture.jpg");
   margin: 0;
 }
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.GalleryBody {
+  background: rgba(174, 201, 255, 1) url("Images/Image-1.jpg");
+  background-size: 100em;
+  background-attachment: fixed;
+  margin: 0;
+}
+.AboutBody {
+  background: rgba(0, 0, 100, 0.5);
+  margin: 0;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    background-size: 170em;
+    opacity: 0;
+    }
+    to {
+      background-size: 150em;
+      opacity: 1;
+      }
+    }
+@keyframes fadeIn {
+  from {
+    background-size: 170em;
+    opacity: 0;
+    }
+    to {
+      background-size: 150em;
+      opacity: 1;
+      }
+    }
 .container {
   width: 100%;
   height: 100%;
@@ -15,13 +43,12 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  background-color: #FAFAFA;
   font-family: Century Gothic,arial,sans-serif;
   color: rgba(101, 101, 101, 1);
 }
 .title-item-under {
   font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(255, 255, 255, 1);
   font-size: 1.1em;
   text-align: center;
   margin: 0em 1em 0em 1em;
@@ -37,8 +64,8 @@ body {
 }
 .about-item {
   font-family: Century Gothic, arial, sans-serif;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 1.1em;
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.8em;
   text-align: center;
   margin: 0 1em 0 1em;
   -webkit-animation-delay: 0.2s;
@@ -56,7 +83,7 @@ a {
   text-decoration: none;
 }
 a:link, a:visited, a:hover, a:active {
-  color: rgba(255, 129, 15, 1);
+  color: rgba(255, 255, 255, 1);
 }
 img {
   width: 100%;
@@ -87,16 +114,15 @@ ul {
   margin: 0;
   width: 100%;
   position: fixed;
-  background-color: #F5F5F5;
   overflow: hidden;
   padding: 0;
   font-family: Century Gothic,arial,sans-serif;
-  box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, .3);
+  font-weight: bolder;
   z-index: 10;
 }
 h1 {
   font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(255,255,255, 1);
   font-size: 6em;
   margin-top: 0;
   text-align: center;
@@ -113,7 +139,7 @@ h1 {
 }
 h2 {
   font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(255, 255, 255, 1);
   font-size: 4em;
   margin-top: 0.5em;
   text-align: center;
@@ -130,7 +156,7 @@ h2 {
 }
 h3 {
   font-family: Century Gothic,arial,sans-serif;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(255, 255, 255, 1);
   font-size: 4em;
   margin-top: 0;
   text-align: center;
@@ -157,12 +183,13 @@ li a {
   -webkit-transition: background 0.25s;
   transition: background 0.25s;
 }
-li a:hover {
-  background-color: #EAEAEA;
-  border-bottom: 2px solid rgba(255, 129, 15, 1)
+li:hover {
+  background-color: #FFFFFF;
 }
-li a.active {
-  border-bottom: 2px solid rgba(255, 129, 15, 1)
+li a:hover {
+  background: url("Images/Texture.jpg");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .top-section {
   padding: 1.1em;
@@ -180,30 +207,46 @@ li a.active {
   h3 {
     margin-top: .3em;
   }
-  li a {
-    font-size: 1em;
+  ul {
+    position: fixed;
+    margin-left: 0;
   }
-  .about-item {
+  li a {
+    font-size: 1.6em;
+  }
+  .about-item, .title-item-under {
   margin: 0 3em 0 3em;
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
-  .title-item-under {
-  margin: 0 3em 0 3em;
-  font-size: 1.4em;
-}
+
 }
 @media only screen and (min-width: 64.063em){
+  .IndexBody {
+    background-size: 170em;
+    background-position: center;
+    -webkit-animation-delay: .2s;
+    animation-delay: .4s;
+    -webkit-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:boths;
+    -webkit-animation-duration:.4s;
+    animation-duration:.4s;
+  }
   .responsive {
     width: 50%;
     margin: 6px 0;
+  }
+  .container {
+    margin-top:
   }
   img {
     padding: .4em;
     width: 40%;
     height: auto;
     margin: .3em;
-    box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, .2);
     background-color: #FFFFFF;
+    box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, .2);
     -webkit-transition: transform 0.1s ease;
     transition: transform 0.1s ease;
     z-index: 1;
@@ -221,13 +264,16 @@ li a.active {
     max-width: 1700px;
   }
   ul {
-    font-size: 1em;
+        margin: 0;
   }
   img:hover {
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
     box-shadow: 0 0.1em 2em rgba(0, 0, 0, .2);
     z-index: 9;
+  }
+  li a {
+    font-size: 1em;
   }
   h2 {
     margin-top: 1em;
