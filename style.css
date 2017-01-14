@@ -201,10 +201,9 @@ li a:hover {
   cursor:pointer;
   white-space:nowrap;
   position:absolute;
+  display: inline;
   top:50%;
   left:0%;
-  transform:translate(0%,-50%);
-  -ms-transform:translate(-0%,-50%);
 }
 .galleryButtonRight {
   border:none;
@@ -220,10 +219,9 @@ li a:hover {
   cursor:pointer;
   white-space:nowrap;
   position:absolute;
+  display: inline;
   top:50%;
   right:0%;
-  transform:translate(0%,+50%);
-  -ms-transform:translate(-0%,+50%);
 }
 
 @media only screen and (min-width: 40.063em){
