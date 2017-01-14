@@ -5,37 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Henry Priz | Gallery</title>
+
   </head>
-  <body class="GalleryBody">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="gallery.html" class="active">Gallery</a></li>
       <li><a href="https://github.com/HenryPriz" target="_blank">GitHub</a></li>
       <li><a href="https://www.instagram.com/henrypriz" target="_blank">Instagram</a></li>
-      <li><A href="about.html">About</a></li>
+      <li><a href="about.html">About</a></li>
     </ul>
-    <section class="top-section"></section>
-    <h3>Gallery</h3>
-    <div class="image-center">
-      <a href="Images/Image-2.jpg">
-        <img src="Images/Image-2-P.jpg" alt="Image">
-      </a>
-      <a href="Images/Image-3.jpg">
-        <img src="Images/Image-3-P.jpg" alt="Image">
-      </a>
-      <a href="Images/Image-4.jpg">
-        <img src="Images/Image-4-P.jpg" alt="Image">
-      </a>
-      <a href="Images/Image-5.jpg">
-        <img src="Images/Image-5-P.jpg" alt="Image">
-      </a>
-      <a href="Images/Image-6.jpg">
-        <img src="Images/Image-6-P.jpg" alt="Image">
-      </a>
-      <a href="Images/Image-7.jpg">
-        <img src="Images/Image-7-P.jpg" alt="Image">
-      </a>
-    </div>
+    <body class="GalleryBody">
+
+        <a class="galleryButtonLeft" onclick="plusPics(-1)">&#10094;</a>
+        <a class="galleryButtonRight" onclick="plusPics(1)">&#10095;</a>
+
+      <script>
+  var imageNum = 1;
+  showPics(imageNum);
+
+  function plusPics(n) {
+    showPics(imageNum += n)
+  }
+
+  function showPics(n) {
+    var i;
+    var image = 'Images/Image-'
+    if (n > 8) {imageNum = 1}
+    if (n < 1) {imageNum = 8}
+    image += imageNum;
+    image += '.jpg';
+
+
+      document.body.style.backgroundImage = 'url('+image+')';
+  }
+
+      </script>
+
       <div class="clearfix"></div>
   </body>
 </html>
