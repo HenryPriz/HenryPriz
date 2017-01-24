@@ -29,18 +29,28 @@
 
   function showPics(n) {
     var i;
-    var image = 'Images/Image-'
+    var x = document.getElementsByClassName("galleryImage");
     if (n > 8) {imageNum = 1}
     if (n < 1) {imageNum = 8}
-    image += imageNum;
-    image += '.jpg';
+    for (i = 0; i < 8; i++) {
+     x[i].style.display = "none";
+  }
 
-
-      document.body.style.backgroundImage = 'url('+image+')';
+    x[imageNum-1].style.display = "block";
   }
 
       </script>
 
       <div class="clearfix"></div>
+      <div class="Holder">
+        <img class="galleryImage" src="Images/Image-1.jpg" style="display: block;">
+        <img class="galleryImage" src="Images/Image-2.jpg">
+        <img class="galleryImage" src="Images/Image-3.jpg">
+        <img class="galleryImage" src="Images/Image-4.jpg">
+        <img class="galleryImage" src="Images/Image-5.jpg">
+        <img class="galleryImage" src="Images/Image-6.jpg">
+        <img class="galleryImage" src="Images/Image-7.jpg">
+        <img class="galleryImage" src="Images/Image-8.jpg">
+      </div>
   </body>
 </html>

@@ -4,7 +4,6 @@
 }
 .GalleryBody {
   background: rgba(174, 201, 255, 1);
-  background-image: url("Images/Image-11111111.jpg");
   background-size: 100%;
   background-attachment: fixed;
   margin: 0;
@@ -12,6 +11,13 @@
 .AboutBody {
   background: rgba(0, 0, 100, 0.5);
   margin: 0;
+}
+.galleryImage {
+  height: 100vh;
+  display: none;
+}
+.holder {
+  left: 50%;
 }
 .myImage {
   z-index: 0;
