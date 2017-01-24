@@ -15,15 +15,10 @@
 .galleryImage {
   height: 100vh;
   display: none;
+  padding-left: 12.5%
 }
 .holder {
-  left: 50%;
-}
-.myImage {
-  z-index: 0;
-}
-.Image {
-  width: 100%;
+  left: 25%;
 }
 @-webkit-keyframes fadeIn {
   from {
