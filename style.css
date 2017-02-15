@@ -19,7 +19,7 @@
 }
 .holder {
   margin: 0 auto;
-  height: 75%;
+  padding: 5% 0;
   width: auto;
 }
 @-webkit-keyframes fadeIn {
