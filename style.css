@@ -56,6 +56,10 @@
   font-family: Century Gothic,arial,sans-serif;
   color: rgba(101, 101, 101, 1);
 }
+
+.container img {
+  width: 75%;
+}
 .title-item-under {
   font-family: Century Gothic,arial,sans-serif;
   color: rgba(255, 255, 255, 1);
@@ -256,8 +260,9 @@ li a:hover {
   .responsive {
     width: 100%;
   }
-  h1 {
-    margin-top: 2em;
+  .container img {
+    margin-top: 3em;
+    width: 55%;
   }
   h2 {
     margin-top: 0.75em
@@ -298,8 +303,8 @@ li a:hover {
     width: 50%;
     margin: 6px 0;
   }
-  .container {
-    margin-top:
+  .container img {
+    width: 25%;
   }
   .top-section {
     padding: 1.75em;
