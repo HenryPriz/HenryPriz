@@ -305,6 +305,7 @@ li a:hover {
   }
   .container img {
     width: 25%;
+    max-width: 450px;
   }
   .top-section {
     padding: 1.75em;
