@@ -66,13 +66,13 @@
   font-size: 1.1em;
   text-align: center;
   margin: 0em 1em 0em 1em;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
   opacity:0;
   -webkit-animation:fadeIn ease-in 1;
   animation:fadeIn ease-in 1;
   -webkit-animation-fill-mode:both;
-  animation-fill-mode:boths;
+  animation-fill-mode: both;
   -webkit-animation-duration:.4s;
   animation-duration:.4s;
 }
@@ -82,8 +82,8 @@
   font-size: 0.8em;
   text-align: center;
   margin: 0 1em 0 1em;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay:.2s;
+  animation-delay:.2s;
   opacity:0;
   -webkit-animation:fadeIn ease-in 1;
   animation:fadeIn ease-in 1;
@@ -127,8 +127,8 @@ h1 {
   margin-top: 0;
   text-align: center;
   margin-bottom: .2em;
-  -webkit-animation-delay: .2s;
-  animation-delay: .2s;
+  -webkit-animation-delay:.2s;
+  animation-delay:.2s;
   opacity:0;
 	-webkit-animation:fadeIn ease-in 1;
 	animation:fadeIn ease-in 1;
@@ -144,8 +144,8 @@ h2 {
   margin-top: 0.5em;
   text-align: center;
   margin-bottom: .2em;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay:.2s;
+  animation-delay:.2s;
   opacity:0;
 	-webkit-animation:fadeIn ease-in 1;
 	animation:fadeIn ease-in 1;
