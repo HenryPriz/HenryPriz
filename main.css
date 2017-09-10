@@ -9,6 +9,11 @@
   animation-fill-mode: both;
   -webkit-animation-duration:.4s;
   animation-duration:.4s;
+  max-height: 100vh;
+}
+
+a {
+  text-decoration: none;
 }
 
 .indexBody {
@@ -20,26 +25,29 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
 
 .titleText {
-  padding-top: 15vh;
-  height: 40vh;
-  font-size: 11em;
+  padding-top: 8vh;
+  height: 60vh;
+  font-size: 25vw;
   font-family: 'Lobster', serif;
+  text-align: center;
 }
 
 .titleTextPositioning {
   margin: 0 auto;
-  width: 800px;
-  transform: rotate(-12deg);
+  width: 80vw;
+  transform: rotate(0deg);
   text-shadow: -4px 3px 11px rgba(0, 0, 0, 0.17);
 }
 
 .bioLinks {
   height: 7vh;
-  width: calc(7vh * 3.2);
+  width: 23vh;
   margin: 0 auto;
+  margin-top: 8vh;
 }
 
 .bioLinks svg {
+  margin: 0 auto;
   height: 7vh;
   width: 7vh;
 }
@@ -63,9 +71,26 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 
 @media only screen and (min-width: 40.063em) {
 
+  .bioOuter {
+    height: 100vh;
+  }
+
+  .titleTextPositioning {
+      transform: rotate(-12deg);
+  }
+
+  .titleText {
+    padding-top: 15vh;
+    height: 40vh;
+    font-size: 22vh;
+    text-align: none;
+  }
+
+  .bioLinks {
+    margin-top: 20vh;
+  }
 
 }
 @media only screen and (min-width: 64.063em) {
-
 
 }
